@@ -10,11 +10,11 @@ namespace Linqproblems
     {
         static void Main(string[] args)
         {
-            ProblemOne one = new ProblemOne();
-            ProblemTwo two = new ProblemTwo();
-            ProblemThree three = new ProblemThree();
+            LinqHomeworkProgram linqHomeworkProgram = new LinqHomeworkProgram();
+            linqHomeworkProgram.ProblemOne();
+            linqHomeworkProgram.ProblemTwo();
+            linqHomeworkProgram.ProblemThree();
+            linqHomeworkProgram.ProblemFour();
         }
-
-
     }
 }

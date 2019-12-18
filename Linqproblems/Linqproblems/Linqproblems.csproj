@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProblemOne.cs" />
-    <Compile Include="ProblemThree.cs" />
-    <Compile Include="ProblemTwo.cs" />
+    <Compile Include="LinqHomeworkProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
