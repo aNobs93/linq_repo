@@ -11,9 +11,9 @@ namespace Linqproblems
         static void Main(string[] args)
         {
             LinqHomeworkProgram linqHomeworkProgram = new LinqHomeworkProgram();
-            linqHomeworkProgram.ProblemOne();
-            linqHomeworkProgram.ProblemTwo();
-            linqHomeworkProgram.ProblemThree();
+            //linqHomeworkProgram.ProblemOne();
+            //linqHomeworkProgram.ProblemTwo();
+            //linqHomeworkProgram.ProblemThree();
             linqHomeworkProgram.ProblemFour();
         }
     }

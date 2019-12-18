@@ -57,5 +57,33 @@ namespace Linqproblems
             var average = classTotal / classGrades.Count();
             return average;
         }
+
+        public string ProblemFour()
+        {
+            string str = "Terrill";
+            var setOfCountedCharacters = new List<string>();
+            str = str.ToLower();
+
+            foreach (var characterToCheck in str)
+            {
+                var count = str.Where(c => (c == characterToCheck) && !(c == ' ')).Count().ToString();
+                string charAndCount = characterToCheck + count;
+                if (!setOfCountedCharacters.Contains(charAndCount))
+                {
+                    setOfCountedCharacters.Add(charAndCount);
+                }
+            }
+
+            setOfCountedCharacters.Sort();
+
+            StringBuilder strBuilder = new StringBuilder();
+            foreach (var item in setOfCountedCharacters)
+            {
+                strBuilder.AppendLine(item);
+            }
+
+            return strBuilder.ToString();
+        }
     }
 }
+
