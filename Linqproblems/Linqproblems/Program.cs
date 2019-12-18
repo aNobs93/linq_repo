@@ -12,6 +12,7 @@ namespace Linqproblems
         {
             ProblemOne one = new ProblemOne();
             ProblemTwo two = new ProblemTwo();
+            ProblemThree three = new ProblemThree();
         }
 
 
