@@ -11,6 +11,7 @@ namespace Linqproblems
         static void Main(string[] args)
         {
             ProblemOne one = new ProblemOne();
+            ProblemTwo two = new ProblemTwo();
         }
 
 
