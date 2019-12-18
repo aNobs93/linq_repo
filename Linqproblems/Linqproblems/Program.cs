@@ -10,6 +10,9 @@ namespace Linqproblems
     {
         static void Main(string[] args)
         {
+            ProblemOne one = new ProblemOne();
         }
+
+
     }
 }
